@@ -162,20 +162,27 @@ body {
     }
     .grid {
         flex-direction: column;
+        overflow-x: hidden;
+        
+        margin-left: 10px;
+        width: 100%;
        
     }
     .grid-item {
         justify-content: center;
         width: 100%; 
+        
+        
     }
     #first {
        order: 1;
-       margin-top: 110%; 
-       
-       margin-left: 10px;
+       padding-top: 60vh; 
+       margin-left: 20px;
+       padding-bottom: 60px;
     }
     #second {
         order: 0;
+        
         
     }
     .grid-item-title{ 
@@ -192,6 +199,7 @@ body {
     .grid-item-content-2 {
     
     right: -200px !important;
+    
     }
 
 }
@@ -219,6 +227,7 @@ body {
     }
     .grid-item-image {
         width: 60%;
+        overflow-x: hidden;
    }
    .grid-item-content-2 {
     
