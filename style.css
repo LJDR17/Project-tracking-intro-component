@@ -113,9 +113,9 @@ body {
 
 .grid-item-title {
     color: hsl(230, 29%, 20%);
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Barlow Condensed';
-    font-weight: 700;
+    font-weight: 900;
     width: 500px;
     padding-bottom: 20px;
 }
